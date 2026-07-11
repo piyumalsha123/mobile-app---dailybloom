@@ -7,7 +7,7 @@
     "icon": "./assets/images/logo.png",
     "scheme": "googleauthapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true
     },
@@ -46,7 +46,9 @@
           "icon": "./assets/images/logo.png",
           "color": "#ffffff"
         }
-      ]
+      ],
+      "expo-font",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
