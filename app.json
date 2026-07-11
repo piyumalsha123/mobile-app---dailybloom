@@ -40,13 +40,6 @@
         }
       ],
       "expo-secure-store",
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/images/logo.png",
-          "color": "#ffffff"
-        }
-      ],
       "expo-font",
       "expo-web-browser"
     ],
