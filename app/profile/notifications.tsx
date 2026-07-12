@@ -90,11 +90,12 @@ const scheduleNotification = async (
       body,
       sound: true,
     },
-    trigger: {
-      type: Notifications.SchedulableTriggerInputTypes.DAILY,
-      hour,
-      minute,
-    },
+   trigger: {
+  type: Notifications.SchedulableTriggerInputTypes.CALENDAR,
+  hour,
+  minute,
+  repeats: true,
+},
   });
 
   await AsyncStorage.setItem(storageKey, id);
@@ -120,7 +121,7 @@ export default function NotificationsScreen() {
 
   useEffect(() => {
   const initialize = async () => {
-    // Android notification channel
+   
     if (Platform.OS === "android") {
       await Notifications.setNotificationChannelAsync("default", {
         name: "default",
