@@ -1,4 +1,4 @@
-# DailyBloom - Habit & Task Tracker 🌸
+# DailyBloom - Journal & Habbit Tracker 🌸
 
 ## Project Overview
 DailyBloom is a cross-platform mobile application developed for the Advanced API Development (AAD) module. It helps users track daily habits, manage tasks, and maintain a personal journal in a minimalist, user-friendly environment.
