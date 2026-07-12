@@ -1,50 +1,21 @@
-# Welcome to your Expo app 👋
+# DailyBloom - Habit & Task Tracker 🌸
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Project Overview
+DailyBloom is a cross-platform mobile application developed for the Advanced API Development (AAD) module. It helps users track daily habits, manage tasks, and maintain a personal journal in a minimalist, user-friendly environment.
 
-## Get started
+## Features
+* **User Authentication:** Secure login and sign-up powered by Firebase.
+* **Habit & Task Management:** Create, Read, Update, and Delete daily activities.
+* **Smart Notifications:** Local notifications with user-controlled settings.
+* **Profile Management:** Personalize your profile with custom images.
+* **Journaling:** A dedicated space to reflect on daily progress.
 
-1. Install dependencies
+## Technologies Used
+* **Frontend:** React Native (Expo)
+* **Backend:** Firebase Firestore & Firebase Auth
+* **Navigation:** Expo Router
+* **Storage:** AsyncStorage
+* **Icons:** @expo/vector-icons
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📱 Download App
+[**Click here to download the DailyBloom APK**](https://expo.dev/accounts/piyumalsha/projects/dailybloom/builds/21ce2e89-9c50-4235-941b-cb5417964432)
