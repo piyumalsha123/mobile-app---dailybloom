@@ -12,15 +12,19 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.piyumalsha.dailybloom"
     },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/logo.png"
-      },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
-      "package": "com.piyumalsha.dailybloom"
-    },
+   "android": {
+  "adaptiveIcon": {
+    "backgroundColor": "#E6F4FE",
+    "foregroundImage": "./assets/images/logo.png"
+  },
+  "edgeToEdgeEnabled": true,
+  "predictiveBackGestureEnabled": false,
+  "package": "com.piyumalsha.dailybloom",
+  "permissions": [
+    "POST_NOTIFICATIONS",
+    "VIBRATE"
+  ]
+},
     "web": {
       "output": "static",
       "favicon": "./assets/images/logo.png",
@@ -42,7 +46,8 @@
       ],
       "expo-secure-store",
       "expo-font",
-      "expo-web-browser"
+      "expo-web-browser",
+      "expo-notifications"
     ],
     "experiments": {
       "typedRoutes": true,

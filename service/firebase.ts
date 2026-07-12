@@ -11,9 +11,7 @@ const firebaseConfig = {
   appId: "1:897785454317:web:5405ac94961dbec12d76e4"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// මෙතන තමයි auth සහ db නිර්මාණය කරලා export කරන්නේ
 export const auth = getAuth(app);
 export const db = getFirestore(app);
