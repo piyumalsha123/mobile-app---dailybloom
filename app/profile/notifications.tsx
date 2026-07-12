@@ -74,7 +74,7 @@ const scheduleNotification = async (
 
   await Notifications.scheduleNotificationAsync({
     content: {
-      title: "🧪 Notification Test",
+      title: " Notification Test",
       body: "Notifications are working correctly!",
       sound: true,
     },
