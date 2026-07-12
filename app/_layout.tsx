@@ -2,7 +2,10 @@ import { Stack } from "expo-router";
 import * as Notifications from "expo-notifications";
 import { useEffect } from "react";
 
-useEffect(() => {
+
+export default function RootLayout() {
+
+  useEffect(() => {
   async function requestPermission() {
     await Notifications.requestPermissionsAsync();
   }
@@ -10,7 +13,6 @@ useEffect(() => {
   requestPermission();
 }, []);
 
-export default function RootLayout() {
   return (
     <Stack
       screenOptions={{
