@@ -18,7 +18,7 @@ DailyBloom is a cross-platform mobile application developed for the Advanced API
 * **Icons:** @expo/vector-icons
 
 ## 📱 Download App
-[**Click here to download the DailyBloom APK**]([https://expo.dev/accounts/piyumalsha/projects/dailybloom/builds/21ce2e89-9c50-4235-941b-cb5417964432](https://expo.dev/artifacts/eas/XqxmMGNBUKBJimAZdkErBGnYAlmVoYhUXiSbGzkP4BY.apk))
+[**Click here to download the DailyBloom APK**](https://expo.dev/accounts/piyumalsha/projects/dailybloom/builds/21ce2e89-9c50-4235-941b-cb5417964432](https://expo.dev/artifacts/eas/XqxmMGNBUKBJimAZdkErBGnYAlmVoYhUXiSbGzkP4BY.apk)
 
 ## Screenshots
 
