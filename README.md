@@ -19,3 +19,13 @@ DailyBloom is a cross-platform mobile application developed for the Advanced API
 
 ## 📱 Download App
 [**Click here to download the DailyBloom APK**](https://expo.dev/accounts/piyumalsha/projects/dailybloom/builds/21ce2e89-9c50-4235-941b-cb5417964432)
+
+## Screenshots
+
+| Login | Register | Home | Pin Setup |
+| :---: | :---: | :---: | :---: |
+| <img src="login.jpeg" width="200"> | <img src="register.jpeg" width="200"> | <img src="home.jpeg" width="200"> | <img src="pin.jpeg" width="200"> |
+
+| Journal | Profile | Habits | Notifications |
+| :---: | :---: | :---: | :---: |
+| <img src="journal.jpeg" width="200"> | <img src="profileimg.jpeg" width="200"> | <img src="habbits.jpeg" width="200"> | <img src="notification.jpeg" width="200"> |
